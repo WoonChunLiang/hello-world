@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Practicals (2018)\AACS3023 - Practical 7\Student Data Files - Student\Practical7\obj\Debug\Practical7.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Practicals (2018)\AACS3023 - Practical 7\Student Data Files - Student\Practical7\obj\Debug\Practical7.csproj.CoreCompileInputs.cache
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\bin\Practical7.dll.config
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\bin\Practical7.dll
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\bin\Practical7.pdb
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\obj\Debug\Practical7.csprojAssemblyReference.cache
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\obj\Debug\Practical7.csproj.CoreCompileInputs.cache
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\obj\Debug\Practical7.dll
+C:\Users\TARC\Desktop\Practical 7\Student Data Files\Practical7\obj\Debug\Practical7.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    
+    <siteMapNode title="Home" url="Home.aspx">
+        <siteMapNode title="Login" url="Login.aspx" />
+        <siteMapNode title="Logout" url="Logout.aspx" />
+        <siteMapNode title="Register" url="Register.aspx" />
+        <siteMapNode title="Protected" url="Protected.aspx" />
+
+        <siteMapNode title="Member" roles="Member">
+            <siteMapNode title="Page 1" url="MemberOnly/Page1.aspx" />
+            <siteMapNode title="Page 2" url="MemberOnly/Page2.aspx" />
+        </siteMapNode>
+        
+        <siteMapNode title="Admin" roles="Admin">
+            <siteMapNode title="Page 1" url="AdminOnly/Page1.aspx" />
+            <siteMapNode title="Page 2" url="AdminOnly/Page2.aspx" />
+        </siteMapNode>
+    </siteMapNode>
+    
+</siteMap>

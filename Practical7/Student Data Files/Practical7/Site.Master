@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Practical7.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <div id="header">
+            <h1>Authentication & Authorization</h1>
+            <asp:Menu ID="Menu1" runat="server" CssClass="menu" DataSourceID="SiteMapDataSource1" DynamicEnableDefaultPopOutImage="False" Orientation="Horizontal" SkipLinkText="" StaticDisplayLevels="2" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            Developed by SOMEBODY &copy; 2018 
+            |<asp:LoginView ID="LoginView1" runat="server">
+                <AnonymousTemplate>
+                    Please Login
+                </AnonymousTemplate>
+                <LoggedInTemplate>
+                    Welcome Back [UserName]
+                </LoggedInTemplate>
+            </asp:LoginView>
+&nbsp;|
+            <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </div>
+    </form>
+</body>
+</html>

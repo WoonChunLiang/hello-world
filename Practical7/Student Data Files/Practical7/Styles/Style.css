@@ -1,0 +1,55 @@
+﻿body, table, input, select {
+    font: 11pt Calibri;
+}
+
+.error {
+    color: red;
+    background-image: url("../Images/Error.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+body {
+    margin: 0px;
+    background-color: #eee;
+}
+
+#header {
+    border-bottom: 1px dashed #999;
+    padding: 10px 20px;
+}
+
+#content {
+    background-color: #fff;
+    min-height: 400px;
+    padding: 10px 20px;
+}
+
+#footer {
+    border-top: 1px dashed #999;
+    padding: 10px 20px;
+}
+
+#footer input[type=image] {
+    vertical-align: top;
+}
+
+h1 {
+    margin: 0px 0px 10px 0px;
+}
+
+.menu a {
+    padding: 5px 10px !important;
+    margin-left: -1px;
+    margin-top: -1px;
+    border: 1px solid #f60;
+    background-color:#fc3;
+    color: #000;
+}
+
+.menu a:hover,
+.menu a.selected {
+    background-color:#f90;
+    color: #fff;
+}
