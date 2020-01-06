@@ -5,7 +5,7 @@
     <h1>Login</h1>
     <table>
         <tr>
-            <td>Username:</td>
+            <td>Username:/td>
             <td>
                 <asp:TextBox ID="txtUsername" runat="server" MaxLength="20"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUsername" CssClass="error" Display="Dynamic" ErrorMessage="Please enter [Username]"></asp:RequiredFieldValidator>
